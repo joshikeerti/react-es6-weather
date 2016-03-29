@@ -1,0 +1,33 @@
+{
+  "name": "react-es6-weather",
+  "version": "1.0.0",
+  "description": "weather application built using react with es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshikeerti/react-es6-weather.git"
+  },
+  "keywords": [
+    "es6",
+    "react",
+    "webpack"
+  ],
+  "author": "Keerti Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshikeerti/react-es6-weather/issues"
+  },
+  "homepage": "https://github.com/joshikeerti/react-es6-weather#readme",
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
