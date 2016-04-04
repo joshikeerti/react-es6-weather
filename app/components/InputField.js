@@ -5,7 +5,7 @@ function InputField (props){
         <input className="form-control"
             type="text"
             placeholder='Cupertino, CA'
-            value={props.city} onChange={props.onUpdateCity}/>
+            value={props.city} onChange={props.onUpdateLocation}/>
     );
 }
 export default InputField;

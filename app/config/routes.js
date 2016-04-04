@@ -1,13 +1,17 @@
 import React from 'react';
 import { RouteHandler, Link, Route, Router, hashHistory,IndexRoute } from 'react-router';
-
-import Home from '../components/Home';
 import Main from '../containers/Main';
+import HomeContainer from '../containers/HomeContainer';
+
+import ForecastContainer from '../containers/ForecastContainer';
+import DetailContainer from '../containers/DetailContainer';
 
 const routes = (
   <Router history = {hashHistory}>
-    <Route path='/' component = {Main}>
-    <IndexRoute component = {Home}/>
+    <Route path='/' component={Main}>
+    <IndexRoute component={HomeContainer}/>
+    <Route path='forecast/:city' component={ForecastContainer}/>
+    <Route path='detail/:city' component={DetailContainer} />
   </Route>
   </Router>
 
